@@ -17,16 +17,16 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ^txt2regex$ is a Regular Expression "wizard", all written with bash2
 builtins, that converts human sentences to RegExs. with a simple
 interface, you just answer to questions and build your own RegEx for a
-large variety of programs, like awk, ed, emacs, grep, perl, php,
-procmail, python, sed and vim. there are more than 20 supported
+large variety of programs, like AWK, ed, Emacs, grep, Perl, PHP,
+procmail, Python, sed and vim. there are more than 20 supported
 programs. it's bash so download and run, no compilation needed.
 
 %description -l pl
 ^txt2regex$ to czarodziej wyra¿eñ regularnych, napisany w bashu. Jego
 zadaniem jest konwersja ludzkich zdañ na wyra¿enia regularne. W prosty
 sposób odpowiadasz na pytania i budujesz w³asne wyra¿enia regularne
-dla ró¿nych programów, takich jak awk, ed, emacs, grep, perl, php,
-procmail, python, sed i vim. Obs³ugiwanych jest wiêcej ni¿ 20
+dla ró¿nych programów, takich jak AWK, ed, Emacs, grep, Perl, PHP,
+procmail, Python, sed i vim. Obs³ugiwanych jest wiêcej ni¿ 20
 programów. Poniewa¿ ^txt2regex$ jest napisany w bashu, nie trzeba go
 kompilowaæ, wystarczy uruchomiæ.
 
@@ -34,8 +34,8 @@ kompilowaæ, wystarczy uruchomiæ.
 O ^txt2regex$ é um assistente "wizard" de Expressões Regulares todo escrito
 com builtins do bash2, que converte frases humanas nas expressões. Com uma
 aparência simples, você apenas responde a perguntas e constrói sua própria
-Expressão Regular para uma grande variedade de programas como: awk, emacs,
-grep, perl, php, procmail, python, sed e vim. Há mais de 20 programas
+Expressão Regular para uma grande variedade de programas como: AWK, Emacs,
+grep, Perl, PHP, procmail, Python, sed e vim. Há mais de 20 programas
 cadastrados. É todo em bash, então basta baixar e rodar, não precisa
 compilar.
 
