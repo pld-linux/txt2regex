@@ -1,12 +1,14 @@
 Summary:	Regular Expression Calculator
 Summary(pl):	Kalkulator dla wyra¿eñ regularnych
+Summary(pt_BR):	Assistente "wizard" de Expressões Regulares
 Name:		txt2regex
 Version:	0.7
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Source0:	http://txt2regex.sourceforge.net//%{name}-%{version}.tgz
+Source0:	http://txt2regex.sourceforge.net/%{name}-%{version}.tgz
 URL:		http://txt2regex.sourceforge.net/
+Buildarch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -25,6 +27,15 @@ dla ró¿nych programów, takich jak awk, ed, emacs, grep, perl, php,
 procmail, python, sed i vim. Obs³ugiwanych jest wiêcej ni¿ 20
 programów. Poniewa¿ ^txt2regex$ jest napisany w bashu, nie trzeba go
 kompilowaæ, wystarczy uruchomiæ.
+
+%description -l pt_BR
+O ^txt2regex$ é um assistente "wizard" de Expressões Regulares todo escrito
+com builtins do bash2, que converte frases humanas nas expressões. Com uma
+aparência simples, você apenas responde a perguntas e constrói sua própria
+Expressão Regular para uma grande variedade de programas como: awk, emacs,
+grep, perl, php, procmail, python, sed e vim. Há mais de 20 programas
+cadastrados. É todo em bash, então basta baixar e rodar, não precisa
+compilar.
 
 %prep
 %setup -q
