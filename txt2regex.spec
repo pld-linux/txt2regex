@@ -9,7 +9,7 @@ Group:		Development/Tools
 Source0:	http://txt2regex.sourceforge.net/%{name}-%{version}.tgz
 # Source0-md5:	5cc7366bd762c8f05fea431d8db1eba9
 URL:		http://txt2regex.sourceforge.net/
-Buildarch:	noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
