@@ -2,12 +2,13 @@ Summary:	Regular Expression Calculator
 Summary(pl):	Kalkulator dla wyra¿eñ regularnych
 Summary(pt_BR):	Assistente "wizard" de Expressões Regulares
 Name:		txt2regex
-Version:	0.7
-Release:	2
+Version:	0.8
+Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://txt2regex.sourceforge.net/%{name}-%{version}.tgz
-# Source0-md5:	5cc7366bd762c8f05fea431d8db1eba9
+# Source0-md5:	83bc1f95b36fe51ade8d130fab390103
+# Source0-size:	40514
 URL:		http://txt2regex.sourceforge.net/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -45,7 +46,7 @@ compilar.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
-install txt2regex-0.7.sh $RPM_BUILD_ROOT%{_bindir}/txt2regex
+install txt2regex-%{version}.sh $RPM_BUILD_ROOT%{_bindir}/txt2regex
 install txt2regex.man $RPM_BUILD_ROOT%{_mandir}/man1/txt2regex.1
 
 %clean
@@ -53,5 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc ChangeLog NEWS README TODO 
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/*/*
