@@ -8,7 +8,6 @@ License:	GPL
 Group:		Development/Tools
 Source0:	http://txt2regex.sourceforge.net/%{name}-%{version}.tgz
 # Source0-md5:	83bc1f95b36fe51ade8d130fab390103
-# Source0-size:	40514
 URL:		http://txt2regex.sourceforge.net/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
