@@ -3,7 +3,7 @@ Summary(pl):	Kalkulator dla wyra¿eñ regularnych
 Summary(pt_BR):	Assistente "wizard" de Expressões Regulares
 Name:		txt2regex
 Version:	0.7
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	http://txt2regex.sourceforge.net/%{name}-%{version}.tgz
