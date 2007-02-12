@@ -1,6 +1,6 @@
 Summary:	Regular Expression Calculator
-Summary(pl):	Kalkulator dla wyraøeÒ regularnych
-Summary(pt_BR):	Assistente "wizard" de Expressıes Regulares
+Summary(pl.UTF-8):   Kalkulator dla wyra≈ºe≈Ñ regularnych
+Summary(pt_BR.UTF-8):   Assistente "wizard" de Express√µes Regulares
 Name:		txt2regex
 Version:	0.8
 Release:	1
@@ -20,22 +20,22 @@ large variety of programs, like AWK, ed, Emacs, grep, Perl, PHP,
 procmail, Python, sed and vim. there are more than 20 supported
 programs. it's bash so download and run, no compilation needed.
 
-%description -l pl
-^txt2regex$ to czarodziej wyraøeÒ regularnych, napisany w bashu. Jego
-zadaniem jest konwersja ludzkich zdaÒ na wyraøenia regularne. W prosty
-sposÛb odpowiadasz na pytania i budujesz w≥asne wyraøenia regularne
-dla rÛønych programÛw, takich jak AWK, ed, Emacs, grep, Perl, PHP,
-procmail, Python, sed i vim. Obs≥ugiwanych jest wiÍcej niø 20
-programÛw. Poniewaø ^txt2regex$ jest napisany w bashu, nie trzeba go
-kompilowaÊ, wystarczy uruchomiÊ.
+%description -l pl.UTF-8
+^txt2regex$ to czarodziej wyra≈ºe≈Ñ regularnych, napisany w bashu. Jego
+zadaniem jest konwersja ludzkich zda≈Ñ na wyra≈ºenia regularne. W prosty
+spos√≥b odpowiadasz na pytania i budujesz w≈Çasne wyra≈ºenia regularne
+dla r√≥≈ºnych program√≥w, takich jak AWK, ed, Emacs, grep, Perl, PHP,
+procmail, Python, sed i vim. Obs≈Çugiwanych jest wiƒôcej ni≈º 20
+program√≥w. Poniewa≈º ^txt2regex$ jest napisany w bashu, nie trzeba go
+kompilowaƒá, wystarczy uruchomiƒá.
 
-%description -l pt_BR
-O ^txt2regex$ È um assistente "wizard" de Expressıes Regulares todo escrito
-com builtins do bash2, que converte frases humanas nas expressıes. Com uma
-aparÍncia simples, vocÍ apenas responde a perguntas e constrÛi sua prÛpria
-Express„o Regular para uma grande variedade de programas como: AWK, Emacs,
-grep, Perl, PHP, procmail, Python, sed e vim. H· mais de 20 programas
-cadastrados. … todo em bash, ent„o basta baixar e rodar, n„o precisa
+%description -l pt_BR.UTF-8
+O ^txt2regex$ √© um assistente "wizard" de Express√µes Regulares todo escrito
+com builtins do bash2, que converte frases humanas nas express√µes. Com uma
+apar√™ncia simples, voc√™ apenas responde a perguntas e constr√≥i sua pr√≥pria
+Express√£o Regular para uma grande variedade de programas como: AWK, Emacs,
+grep, Perl, PHP, procmail, Python, sed e vim. H√° mais de 20 programas
+cadastrados. √â todo em bash, ent√£o basta baixar e rodar, n√£o precisa
 compilar.
 
 %prep
