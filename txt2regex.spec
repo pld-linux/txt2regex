@@ -1,6 +1,6 @@
 Summary:	Regular Expression Calculator
-Summary(pl.UTF-8):   Kalkulator dla wyrażeń regularnych
-Summary(pt_BR.UTF-8):   Assistente "wizard" de Expressões Regulares
+Summary(pl.UTF-8):	Kalkulator dla wyrażeń regularnych
+Summary(pt_BR.UTF-8):	Assistente "wizard" de Expressões Regulares
 Name:		txt2regex
 Version:	0.8
 Release:	1
